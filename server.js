@@ -17,7 +17,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 // OpenRouter API key - use environment variable or fallback to the hardcoded key for local development
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || `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';
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || `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';
 
 // Video streaming API endpoint
 app.post('/api/get-stream-url', async (req, res) => {
